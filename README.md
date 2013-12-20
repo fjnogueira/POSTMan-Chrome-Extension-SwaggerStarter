@@ -3,6 +3,14 @@ Postman
 Postman helps you be more efficient while working with APIs. Postman is a scratch-your-own-itch project. The need for it arose while one of the developers was creating an API for his project. After looking around for a number of tools, nothing felt just right. The primary features added were a history of sent requests and collections.
 A number of other features have been added since the initial release. A small list is below. To see a fancier page and a video tutorial, check out http://www.getpostman.com
 
+Swagger Starter
+=======
+This version of Swagger is intended to offer you a feature to create all of your collections based on a Swagger metadata URL, the same one used by Swagger-UI to build the UI. That way, you can use all the amazing tools and features below with POSTMan.
+
+- One Collection Per Service as the main swagger.json output
+- All the requests for each of the services in the collection
+- Create different environments based on the URL matches (2 different hosts with the same swagger.json - QA, DEV, etc)
+
 Features
 ========
 
